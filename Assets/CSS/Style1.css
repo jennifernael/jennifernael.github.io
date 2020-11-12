@@ -1,0 +1,234 @@
+/* ----------image de fond page home---------- */
+.bg {
+    background-image: url("../IMG/Collage keith jenn.jpg");
+    justify-content: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Pacifico', cursive;
+    height: auto;
+    opacity: 0.90;
+}
+/* JENNIFER NAEL */
+.JNtittle {
+  font-size: 6.8vw;
+  margin-left: 4%;
+}
+
+/* Portfolio */
+.MarginwebD {
+  margin-top: 11%;
+}
+
+.portfolioButton {
+  margin-top: 4em;
+  background-color: #ffffff;
+  border-color: #554641;
+  border: double;
+  border-radius: 18px;
+  color: #DA6C3F;
+}
+
+/* bg white au survol de Portfolio */
+.portfolioButton:hover {
+  color: #554641;
+  text-decoration: none;
+}
+
+/* webdesigner*/
+.bgopacity {
+    opacity: 0.55;  
+}
+
+/* couleurs font */
+.fontBrown {
+    color: #554641;
+    font-family: 'Pacifico', cursive;
+}
+.fontBrownAccueil {
+    color: #554641;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.8vw;
+}
+.fontBrownAccueil a{
+    color: #DA6C3F;
+}
+.fontBrDosis {
+    color: #554641;
+    font-family: 'Dosis', sans-serif;
+}
+.fontOrange {
+    color: #DA6C3F;
+    font-family: 'Dosis', sans-serif;
+}
+.fontBrDosis a{
+    color:#554641;
+}
+ /* détail point orange */
+.pointOrange {
+    color: #DA6C3F;
+    font-family: 'Pacifico', cursive;  
+  }
+
+/* ----------position : relative sera positionné relativement à sa position par défaut----------*/
+.navbar {
+  background-color: #DA6C3F;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  font-size: 1.6vw;
+ }
+
+
+
+ /* ----------about me---------- */
+
+
+/* ----------timeline formations + Expérience ---------- */
+.fontTimelineEduc {
+  font-family: 'Dosis', sans-serif;
+}
+
+.timeline2 {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  
+}
+.timeline2 ul li {
+  margin-bottom: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* boutons de la timeline*/
+.point2 {
+  min-width: 20px;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  z-index: 2;
+  border: 4px #DA6C3F solid;
+  position: relative;
+  left: 1px;
+}
+
+.timeline2 ul li .content {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.timeline2 ul li:nth-child(odd) .content {
+  padding-left: 0;
+}
+
+.timeline2 ul li:nth-child(odd) .date2 {
+  padding-right: 0;
+}
+
+.timeline2 ul li:nth-child(even) .content {
+  padding-right: 0;
+}
+
+.timeline2 ul li:nth-child(even) .date2 {
+  padding-left: 0;
+}
+
+.timeline2 ul li .date2 {
+  width: 50%;
+  padding: 0 20px;
+  font-weight: normal;
+}
+/*dates*/
+.timeline2 ul li .date2 h4 {
+  background-color: #DA6C3F;
+  width: 100px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+/*intitulé du poste*/
+.timeline2 ul li .content h3 {
+  padding: 10px 20px;
+  background-color:#554641;
+  margin-bottom: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/*description du poste*/
+.timeline2 ul li .content p {
+  padding: 10px 20px;
+  margin-top: 0;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.timeline2 ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline2 ul li:nth-child(even) .date2 h4 {
+  float: right
+}
+
+.timeline2::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 50%;
+  background-color: #333333;
+}
+
+@media (max-width: 800px) {
+  .point2 {
+      min-width: 15px;
+      height: 15px;
+  }
+
+  html, body {
+      font-size: 15px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  html, body {
+      font-size: 14px;
+  }
+  
+  .point2 {
+      min-width: 12px;
+      height: 12px;
+  }
+
+}
+
+@media (max-width: 450px) {
+  html, body {
+      font-size: 10px;
+  }
+
+  p {
+      padding: 10px !important;
+  }
+}
+
+/* ---------- Skills part ---------- */
+
+.footerJN {
+  background-image: url("../IMG/Collage\ keith\ jenn\ footer1.jpg");
+  justify-content: center;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 12vh;
+  opacity: 0.50;
+}
+
+#facebook, #instagram {
+height: 5.5vh;
+width: 5.5vh;
+}
